@@ -1,0 +1,27 @@
+.areal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 2200px;
+    height: 1200px;
+    background-color: #561DFB
+    
+}
+.one{
+width: 843px;
+height: 320px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 200px;
+line-height: 160%;
+color: rgba(255, 255, 255, 0.92);
+}
+
+.two{
+border: 5px solid red;
+box-shadow: 0px 4px 4px 0px #000000;
+width: 1920px;
+height: 960px;
+}
