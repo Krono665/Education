@@ -1,6 +1,5 @@
 .areal{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 2200px;
@@ -9,8 +8,9 @@
     
 }
 .one{
-width: 843px;
-height: 320px;
+display: flex;
+align-items: center;
+justify-content: center;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
@@ -20,8 +20,21 @@ color: rgba(255, 255, 255, 0.92);
 }
 
 .two{
-border: 5px solid red;
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+justify-content: center;
 box-shadow: 0px 4px 4px 0px #000000;
 width: 1920px;
 height: 960px;
+background: radial-gradient(circle, rgba(218,144,255,1) 4%, rgba(178,64,251,1) 44%, rgba(72,64,251,1) 100%);
+}
+.third{
+display: flex;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 160%;
+color: rgba(255, 255, 255, 0.4);
 }
